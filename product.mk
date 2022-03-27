@@ -28,4 +28,4 @@ include hardware/qcom-caf/sm8250/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TAR
 endif
 
 #Vendor property to enable Codec2 for audio and OMX for Video
-PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.ccodec=1
+PRODUCT_VENDOR_PROPERTIES += debug.stagefright.ccodec=1
